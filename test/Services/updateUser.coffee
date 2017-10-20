@@ -4,7 +4,7 @@ import axios from 'axios'
 export default updateUser = ->
   axios
     method: 'PUT'
-    url: 'http://192.168.0.192:3000/users/1'
+    url: "http://192.168.0.192:3000/users/"
     dataType: 'json'
     headers: source.source.headers
     data: {
